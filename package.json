@@ -1,0 +1,16 @@
+{
+  "name": "case-review-automation",
+  "version": "3.3.7-1",
+  "private": true,
+  "description": "Public SharePoint userscript with explicit classification and an external AI/MCP review handoff.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "xlsx": "0.18.5"
+  }
+}
